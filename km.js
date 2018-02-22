@@ -6,7 +6,7 @@ var kilometersElement = document.getElementById("kValue");
 // Only error was that it was missing a quotation character before the mValue
 var milesElement = document.getElementById("mValue");
 function convert() {
-   var km = milesElement.value * 0.6;
+   var km = milesElement.value * 1.6;
    kilometersElement.innerHTML = km;
 }
 
